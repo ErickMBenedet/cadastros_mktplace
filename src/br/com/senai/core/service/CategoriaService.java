@@ -64,6 +64,6 @@ public class CategoriaService {
 	}
 	
 	public List<Categoria> listarTodas() {
-		return dao.listarTodas();
+		return dao.listarPor("%%");
 	}
 }
